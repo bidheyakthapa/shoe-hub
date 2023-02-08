@@ -31,3 +31,33 @@ header {
 .nav-link:hover {
   font-size: 18px;
 }
+
+.hero{
+    display: flex;
+}
+
+.hero-img{
+    max-width: 50%;
+}
+
+.hero-img img{
+    max-width: 100%;
+}
+
+.hero-txt-part{
+    padding: 10px 0px;
+}
+
+.hero-txt-part h1{
+    font-size: 50px;
+}
+
+.hero-txt-part p{
+    color: #979797;
+}
+
+.hero-btn button{
+    border-radius: 20px;
+    padding: 8px;
+    border: 1px solid;
+}
