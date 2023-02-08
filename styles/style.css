@@ -1,29 +1,33 @@
-*{
-    margin: 0px;
-    padding: 0px;
+* {
+  margin: 0px;
+  padding: 0px;
 }
 
-header{
-    display: flex;
-    align-items: center;
-    background-color: #000000;
-    justify-content: space-between;
+header {
+  display: flex;
+  align-items: center;
+  background-color: #000000;
+  justify-content: space-between;
 }
 
-.logo img{
-    width: 100px;
+.logo img {
+  width: 100px;
 }
 
-.nav-list{
-    display: flex; 
+.nav-list {
+  display: flex;
 }
 
-.nav-item{
-    padding-right: 30px;
-    list-style: none;
+.nav-item {
+  padding-right: 30px;
+  list-style: none;
 }
 
-.nav-item a{
-    text-decoration: none;
-    color: #ffffff;
+.nav-item a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.nav-link:hover {
+  font-size: 18px;
 }
