@@ -10,8 +10,8 @@ header {
   justify-content: space-between;
 }
 
-body{
-    font-family: "Roboto", sans-serif;
+body {
+  font-family: "Roboto", sans-serif;
 }
 
 .logo img {
@@ -60,71 +60,97 @@ body{
   color: #979797;
 }
 
-.hero-btn button {
+button {
   border-radius: 20px;
   padding: 8px;
   border: 1px solid;
+  font-size: 15px;
 }
 
-.feature-items{
-    background-color: #d1d1d1;
-    padding: 30px;
+.feature-items {
+  background-color: #d1d1d1;
+  padding: 30px;
 }
 
-.main-container{
-    display: flex;
-    padding: 30px;
+.main-container {
+  display: flex;
+  padding: 30px;
 }
 
-.main-container img{   
-    height: 100%;
-    width: 100%;
-    max-height: 400px;
-    max-width: 400px;
+.main-container img {
+  height: 100%;
+  width: 100%;
+  max-height: 400px;
+  max-width: 400px;
 }
 
-.container{
-    padding: 20px;
+.container {
+  padding: 20px;
 }
 
-.shoe-name{
-    padding: 10px 0px;
+.shoe-name {
+  padding: 10px 0px;
 }
 
-a{
-    text-decoration: none;
-    color: #000000;
+a {
+  text-decoration: none;
+  color: #000000;
 }
 
-.recommendition{
-    padding: 50px;
+.recommendition {
+  padding: 50px;
 }
 
-.recommendition-container{
-    display: flex;
-    flex-wrap: wrap;
-    padding: 50px 0px;
+.recommendition-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px 0px;
 }
 
-.recommendition-container img{
-    height: 100%;
-    width: 100%;
-    max-height: 400px;
-    max-width: 375px;
+.recommendition-container img {
+  height: 100%;
+  width: 100%;
+  max-height: 400px;
+  max-width: 375px;
 }
 
-.recommenditon-btn{
-    text-align: center;
+.recommenditon-btn {
+  text-align: center;
 }
 
-.recommenditon-btn button{
-    border-radius: 20px;
-    padding: 8px;
-    border: 1px solid;
-   
+.recommenditon-btn button:hover {
+  background-color: #000000;
+  color: #ffffff;
 }
 
-.recommenditon-btn button:hover{
-    background-color: #000000;
-    color: #ffffff;
+.store {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.store h1 {
+  font-size: 40px;
+}
+
+.store-container {
+  display: flex;
+  padding: 50px;
+}
+
+.store-img img {
+  height: 500px;
+  padding-right: 30px;
+}
+
+.store-txt {
+  padding: 20px;
+}
+
+.store-txt p {
+  color: #d1d1d1;
+}
+
+.store-txt button {
+  background-color: #1a1a1a;
+  color: #d1d1d1;
 }
